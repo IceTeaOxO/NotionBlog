@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      args:
+        NOTION_PAGE_ID: cn:f17a53e7b2e8474193cdfd63cd4720bc
+    ports:
+      - "3000:3000"
